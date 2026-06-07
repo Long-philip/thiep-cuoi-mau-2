@@ -1,0 +1,7 @@
+# Bản mirror mẫu thương mại — KHÔNG đẩy lên GitHub
+clone_redlove/
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/
