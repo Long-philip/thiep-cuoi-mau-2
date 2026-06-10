@@ -15,10 +15,11 @@ STYLE
 }
 
 body{
-    background:#650d1d;
+    background:#fff;
     overflow-x:hidden;
 }
 
+.cloud-backdrop{position:fixed;inset:0;background:#650d1d;z-index:9998;pointer-events:none;transition:opacity 4s ease;}.open .cloud-backdrop{opacity:0;}
 .cloud-door{
     position:fixed;
     top:0;
@@ -208,7 +209,7 @@ body{
 }
 </style>
 
-<div class="cloud-door left-door"></div>
+<div class="cloud-backdrop"></div><div class="cloud-door left-door"></div>
 <div class="cloud-door right-door"></div>
 
 <div id="music-toggle">
